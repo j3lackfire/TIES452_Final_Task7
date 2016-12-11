@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SPARQL_EndPoint:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SPARQL_EndPoint_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SPARQL_EndPoint/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SPARQL_EndPoint" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.eclipse.rdf4j:rdf4j-runtime:2.0M2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

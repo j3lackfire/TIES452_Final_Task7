@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SPARQL_EndPoint:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SPARQL_EndPoint_war</output-path>
+    <root id="archive" name="SPARQL_EndPoint_war.war">
+      <element id="artifact" artifact-name="SPARQL_EndPoint:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.eclipse.rdf4j:rdf4j-runtime:2.0M2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
